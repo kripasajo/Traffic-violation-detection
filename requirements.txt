@@ -1,0 +1,19 @@
+# Core ML / CV
+torch>=2.0.0
+timm>=0.9.0
+opencv-python>=4.7.0
+numpy>=1.24.0
+
+# Feature extraction / data loading
+huggingface_hub>=0.19.0
+
+# Experiments / metrics
+scikit-learn>=1.3.0
+
+# Figures / tables
+matplotlib>=3.7.0
+pandas>=2.0.0
+tabulate>=0.9.0      # optional: enables Markdown table output in results_summary.md
+
+# Federated aggregation (optional, falls back to numpy FedAvg if absent)
+flwr>=1.6.0
